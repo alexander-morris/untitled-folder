@@ -1,0 +1,24 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "phase1",
+          "kind" : "fileSystem",
+          "location" : "/Users/almorris/untitled folder/phase1",
+          "name" : "UntitledFolderCore"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/almorris/untitled folder/phase1"
+        },
+        "subpath" : "phase1"
+      }
+    ]
+  },
+  "version" : 6
+}

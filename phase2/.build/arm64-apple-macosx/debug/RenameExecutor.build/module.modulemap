@@ -1,0 +1,4 @@
+module RenameExecutor {
+    header "/Users/almorris/untitled folder/phase2/.build/arm64-apple-macosx/debug/RenameExecutor.build/RenameExecutor-Swift.h"
+    requires objc
+}

@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/DryRunMode.build/master.swiftdeps"
+  },
+  "/Users/almorris/untitled folder/phase2/Sources/DryRunMode/DryRunMode.swift": {
+    "dependencies": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/DryRunMode.build/DryRunMode.d",
+    "object": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/DryRunMode.build/DryRunMode.swift.o",
+    "swiftmodule": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/DryRunMode.build/DryRunMode~partial.swiftmodule",
+    "swift-dependencies": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/DryRunMode.build/DryRunMode.swiftdeps"
+  }
+}

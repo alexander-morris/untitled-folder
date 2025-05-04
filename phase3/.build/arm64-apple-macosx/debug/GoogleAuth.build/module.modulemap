@@ -1,0 +1,4 @@
+module GoogleAuth {
+    header "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuth.build/GoogleAuth-Swift.h"
+    requires objc
+}

@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/almorris/untitled folder/phase2/.build/arm64-apple-macosx/debug/DryRunModeTests.build/master.swiftdeps"
+  },
+  "/Users/almorris/untitled folder/phase2/Tests/DryRunModeTests/DryRunModeTests.swift": {
+    "dependencies": "/Users/almorris/untitled folder/phase2/.build/arm64-apple-macosx/debug/DryRunModeTests.build/DryRunModeTests.d",
+    "object": "/Users/almorris/untitled folder/phase2/.build/arm64-apple-macosx/debug/DryRunModeTests.build/DryRunModeTests.swift.o",
+    "swiftmodule": "/Users/almorris/untitled folder/phase2/.build/arm64-apple-macosx/debug/DryRunModeTests.build/DryRunModeTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/almorris/untitled folder/phase2/.build/arm64-apple-macosx/debug/DryRunModeTests.build/DryRunModeTests.swiftdeps"
+  },
+  "/Users/almorris/untitled folder/phase2/Tests/DryRunModeTests/MockFileManager.swift": {
+    "dependencies": "/Users/almorris/untitled folder/phase2/.build/arm64-apple-macosx/debug/DryRunModeTests.build/MockFileManager.d",
+    "object": "/Users/almorris/untitled folder/phase2/.build/arm64-apple-macosx/debug/DryRunModeTests.build/MockFileManager.swift.o",
+    "swiftmodule": "/Users/almorris/untitled folder/phase2/.build/arm64-apple-macosx/debug/DryRunModeTests.build/MockFileManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/almorris/untitled folder/phase2/.build/arm64-apple-macosx/debug/DryRunModeTests.build/MockFileManager.swiftdeps"
+  }
+}

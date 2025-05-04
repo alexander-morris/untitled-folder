@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/master.swiftdeps"
+  },
+  "/Users/almorris/untitled folder/phase3/Sources/LLMIntegration/LLMIntegration.swift": {
+    "dependencies": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/LLMIntegration.d",
+    "object": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/LLMIntegration.swift.o",
+    "swiftmodule": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/LLMIntegration~partial.swiftmodule",
+    "swift-dependencies": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/LLMIntegration.swiftdeps"
+  },
+  "/Users/almorris/untitled folder/phase3/Sources/LLMIntegration/Networking/URLSessionProtocol.swift": {
+    "dependencies": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/URLSessionProtocol.d",
+    "object": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/URLSessionProtocol.swift.o",
+    "swiftmodule": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/URLSessionProtocol~partial.swiftmodule",
+    "swift-dependencies": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/URLSessionProtocol.swiftdeps"
+  }
+}

@@ -1,0 +1,1691 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/phase3PackageTests.xctest/Contents/MacOS/phase3PackageTests",
+      "packagePath" : "/Users/almorris/untitled folder/phase3",
+      "productName" : "phase3PackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.DryRunMode-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/DryRunMode.build/sources",
+      "importPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase2/Sources/DryRunMode/DryRunMode.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/DryRunMode.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "DryRunMode",
+      "moduleOutputPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/DryRunMode.swiftmodule",
+      "objects" : [
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/DryRunMode.build/DryRunMode.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/DryRunMode.build/DryRunMode-Swift.h",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/DryRunMode.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/DryRunMode.build/DryRunMode.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/DryRunMode.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/almorris/untitled folder/phase2/Sources/DryRunMode/DryRunMode.swift"
+      ],
+      "tempsPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/DryRunMode.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.FilenameAnalyzer-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/sources",
+      "importPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase1/Sources/FilenameAnalyzer/FilenameAnalyzer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FileScanner.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "FilenameAnalyzer",
+      "moduleOutputPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.swiftmodule",
+      "objects" : [
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/FilenameAnalyzer.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/FilenameAnalyzer-Swift.h",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/FilenameAnalyzer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/almorris/untitled folder/phase1/Sources/FilenameAnalyzer/FilenameAnalyzer.swift"
+      ],
+      "tempsPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.FileScanner-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FileScanner.build/sources",
+      "importPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase1/Sources/FileScanner/FileScanner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FileScanner.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "FileScanner",
+      "moduleOutputPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FileScanner.swiftmodule",
+      "objects" : [
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FileScanner.build/FileScanner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FileScanner.build/FileScanner-Swift.h",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FileScanner.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FileScanner.build/FileScanner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FileScanner.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/almorris/untitled folder/phase1/Sources/FileScanner/FileScanner.swift"
+      ],
+      "tempsPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FileScanner.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.GoogleAuth-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuth.build/sources",
+      "importPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/Sources/GoogleAuth/GoogleAuthManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuth.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "GoogleAuth",
+      "moduleOutputPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuth.swiftmodule",
+      "objects" : [
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuth.build/GoogleAuthManager.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuth.build/GoogleAuth-Swift.h",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuth.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuth.build/GoogleAuthManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuth.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/almorris/untitled folder/phase3/Sources/GoogleAuth/GoogleAuthManager.swift"
+      ],
+      "tempsPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuth.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.GoogleAuthTests-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuthTests.build/sources",
+      "importPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/Tests/GoogleAuthTests/GoogleAuthTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuth.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuthTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "GoogleAuthTests",
+      "moduleOutputPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuthTests.swiftmodule",
+      "objects" : [
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuthTests.build/GoogleAuthTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuthTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuthTests.build/GoogleAuthTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuthTests.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/almorris/untitled folder/phase3/Tests/GoogleAuthTests/GoogleAuthTests.swift"
+      ],
+      "tempsPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuthTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.LLMIntegration-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/sources",
+      "importPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/Sources/LLMIntegration/LLMIntegration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/Sources/LLMIntegration/Networking/URLSessionProtocol.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuth.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "LLMIntegration",
+      "moduleOutputPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.swiftmodule",
+      "objects" : [
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/LLMIntegration.swift.o",
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/URLSessionProtocol.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/LLMIntegration-Swift.h",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/LLMIntegration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/URLSessionProtocol.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/almorris/untitled folder/phase3/Sources/LLMIntegration/LLMIntegration.swift",
+        "/Users/almorris/untitled folder/phase3/Sources/LLMIntegration/Networking/URLSessionProtocol.swift"
+      ],
+      "tempsPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.LLMIntegrationTests-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegrationTests.build/sources",
+      "importPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/Tests/LLMIntegrationTests/LLMIntegrationTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegrationTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "LLMIntegrationTests",
+      "moduleOutputPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegrationTests.swiftmodule",
+      "objects" : [
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegrationTests.build/LLMIntegrationTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegrationTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegrationTests.build/LLMIntegrationTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegrationTests.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/almorris/untitled folder/phase3/Tests/LLMIntegrationTests/LLMIntegrationTests.swift"
+      ],
+      "tempsPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegrationTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.LocalModelFallback-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.build/sources",
+      "importPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/Sources/LocalModelFallback/LocalModelFallback.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "LocalModelFallback",
+      "moduleOutputPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.swiftmodule",
+      "objects" : [
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.build/LocalModelFallback.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.build/LocalModelFallback-Swift.h",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.build/LocalModelFallback.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/almorris/untitled folder/phase3/Sources/LocalModelFallback/LocalModelFallback.swift"
+      ],
+      "tempsPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.LocalModelFallbackTests-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallbackTests.build/sources",
+      "importPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/Tests/LocalModelFallbackTests/LocalModelFallbackTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallbackTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "LocalModelFallbackTests",
+      "moduleOutputPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallbackTests.swiftmodule",
+      "objects" : [
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallbackTests.build/LocalModelFallbackTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallbackTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallbackTests.build/LocalModelFallbackTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallbackTests.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/almorris/untitled folder/phase3/Tests/LocalModelFallbackTests/LocalModelFallbackTests.swift"
+      ],
+      "tempsPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallbackTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.RenameExecutor-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/RenameExecutor.build/sources",
+      "importPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase2/Sources/RenameExecutor/RenameExecutor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/RenameExecutor.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "RenameExecutor",
+      "moduleOutputPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/RenameExecutor.swiftmodule",
+      "objects" : [
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/RenameExecutor.build/RenameExecutor.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/RenameExecutor.build/RenameExecutor-Swift.h",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/RenameExecutor.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/RenameExecutor.build/RenameExecutor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/RenameExecutor.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/almorris/untitled folder/phase2/Sources/RenameExecutor/RenameExecutor.swift"
+      ],
+      "tempsPath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/RenameExecutor.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "DryRunMode" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "DryRunMode",
+      "-incremental",
+      "-c",
+      "/Users/almorris/untitled folder/phase2/Sources/DryRunMode/DryRunMode.swift",
+      "-I",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-swift-version",
+      "5",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/DryRunMode.build/DryRunMode-Swift.h",
+      "-color-diagnostics",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "FilenameAnalyzer" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "FilenameAnalyzer",
+      "-incremental",
+      "-c",
+      "/Users/almorris/untitled folder/phase1/Sources/FilenameAnalyzer/FilenameAnalyzer.swift",
+      "-I",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-swift-version",
+      "5",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/FilenameAnalyzer-Swift.h",
+      "-color-diagnostics",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "FileScanner" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "FileScanner",
+      "-incremental",
+      "-c",
+      "/Users/almorris/untitled folder/phase1/Sources/FileScanner/FileScanner.swift",
+      "-I",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-swift-version",
+      "5",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FileScanner.build/FileScanner-Swift.h",
+      "-color-diagnostics",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "GoogleAuth" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "GoogleAuth",
+      "-incremental",
+      "-c",
+      "/Users/almorris/untitled folder/phase3/Sources/GoogleAuth/GoogleAuthManager.swift",
+      "-I",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-swift-version",
+      "5",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuth.build/GoogleAuth-Swift.h",
+      "-color-diagnostics",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "GoogleAuthTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "GoogleAuthTests",
+      "-incremental",
+      "-c",
+      "/Users/almorris/untitled folder/phase3/Tests/GoogleAuthTests/GoogleAuthTests.swift",
+      "-I",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-swift-version",
+      "5",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "LLMIntegration" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "LLMIntegration",
+      "-incremental",
+      "-c",
+      "/Users/almorris/untitled folder/phase3/Sources/LLMIntegration/LLMIntegration.swift",
+      "/Users/almorris/untitled folder/phase3/Sources/LLMIntegration/Networking/URLSessionProtocol.swift",
+      "-I",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-swift-version",
+      "5",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/LLMIntegration-Swift.h",
+      "-color-diagnostics",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "LLMIntegrationTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "LLMIntegrationTests",
+      "-incremental",
+      "-c",
+      "/Users/almorris/untitled folder/phase3/Tests/LLMIntegrationTests/LLMIntegrationTests.swift",
+      "-I",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-swift-version",
+      "5",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "LocalModelFallback" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "LocalModelFallback",
+      "-incremental",
+      "-c",
+      "/Users/almorris/untitled folder/phase3/Sources/LocalModelFallback/LocalModelFallback.swift",
+      "-I",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-swift-version",
+      "5",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.build/LocalModelFallback-Swift.h",
+      "-color-diagnostics",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "LocalModelFallbackTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "LocalModelFallbackTests",
+      "-incremental",
+      "-c",
+      "/Users/almorris/untitled folder/phase3/Tests/LocalModelFallbackTests/LocalModelFallbackTests.swift",
+      "-I",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-swift-version",
+      "5",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "RenameExecutor" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "RenameExecutor",
+      "-incremental",
+      "-c",
+      "/Users/almorris/untitled folder/phase2/Sources/RenameExecutor/RenameExecutor.swift",
+      "-I",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-swift-version",
+      "5",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/RenameExecutor.build/RenameExecutor-Swift.h",
+      "-color-diagnostics",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "DryRunMode" : [
+      "FilenameAnalyzer",
+      "FileScanner"
+    ],
+    "FilenameAnalyzer" : [
+      "FileScanner"
+    ],
+    "FileScanner" : [
+
+    ],
+    "GoogleAuth" : [
+
+    ],
+    "GoogleAuthTests" : [
+      "GoogleAuth"
+    ],
+    "LLMIntegration" : [
+      "FilenameAnalyzer",
+      "FileScanner",
+      "GoogleAuth"
+    ],
+    "LLMIntegrationTests" : [
+      "LLMIntegration",
+      "FilenameAnalyzer",
+      "FileScanner",
+      "GoogleAuth"
+    ],
+    "LocalModelFallback" : [
+      "LLMIntegration",
+      "FilenameAnalyzer",
+      "FileScanner",
+      "GoogleAuth"
+    ],
+    "LocalModelFallbackTests" : [
+      "LocalModelFallback",
+      "LLMIntegration",
+      "FilenameAnalyzer",
+      "FileScanner",
+      "GoogleAuth"
+    ],
+    "RenameExecutor" : [
+      "FilenameAnalyzer",
+      "FileScanner"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "writeCommands" : {
+    "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/DryRunMode.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase2/Sources/DryRunMode/DryRunMode.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/DryRunMode.build/sources"
+    },
+    "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase1/Sources/FilenameAnalyzer/FilenameAnalyzer.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/sources"
+    },
+    "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FileScanner.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase1/Sources/FileScanner/FileScanner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FileScanner.build/sources"
+    },
+    "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuth.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/Sources/GoogleAuth/GoogleAuthManager.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuth.build/sources"
+    },
+    "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuthTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/Tests/GoogleAuthTests/GoogleAuthTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuthTests.build/sources"
+    },
+    "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/Sources/LLMIntegration/LLMIntegration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/Sources/LLMIntegration/Networking/URLSessionProtocol.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/sources"
+    },
+    "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegrationTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/Tests/LLMIntegrationTests/LLMIntegrationTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegrationTests.build/sources"
+    },
+    "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/Sources/LocalModelFallback/LocalModelFallback.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.build/sources"
+    },
+    "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallbackTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/Tests/LocalModelFallbackTests/LocalModelFallbackTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallbackTests.build/sources"
+    },
+    "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/phase3PackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FileScanner.build/FileScanner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/FilenameAnalyzer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuth.build/GoogleAuthManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuthTests.build/GoogleAuthTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/LLMIntegration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/URLSessionProtocol.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegrationTests.build/LLMIntegrationTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.build/LocalModelFallback.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallbackTests.build/LocalModelFallbackTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/phase3PackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/RenameExecutor.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/almorris/untitled folder/phase2/Sources/RenameExecutor/RenameExecutor.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/RenameExecutor.build/sources"
+    },
+    "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

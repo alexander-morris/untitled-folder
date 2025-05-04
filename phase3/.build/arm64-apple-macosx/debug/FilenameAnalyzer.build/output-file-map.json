@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/master.swiftdeps"
+  },
+  "/Users/almorris/untitled folder/phase1/Sources/FilenameAnalyzer/FilenameAnalyzer.swift": {
+    "dependencies": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/FilenameAnalyzer.d",
+    "object": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/FilenameAnalyzer.swift.o",
+    "swiftmodule": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/FilenameAnalyzer~partial.swiftmodule",
+    "swift-dependencies": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/FilenameAnalyzer.swiftdeps"
+  }
+}

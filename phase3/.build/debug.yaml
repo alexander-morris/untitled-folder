@@ -1,0 +1,252 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "DryRunMode-debug.module": ["<DryRunMode-debug.module>"]
+  "FileScanner-debug.module": ["<FileScanner-debug.module>"]
+  "FilenameAnalyzer-debug.module": ["<FilenameAnalyzer-debug.module>"]
+  "GoogleAuth-debug.module": ["<GoogleAuth-debug.module>"]
+  "GoogleAuthTests-debug.module": ["<GoogleAuthTests-debug.module>"]
+  "LLMIntegration-debug.module": ["<LLMIntegration-debug.module>"]
+  "LLMIntegrationTests-debug.module": ["<LLMIntegrationTests-debug.module>"]
+  "LocalModelFallback-debug.module": ["<LocalModelFallback-debug.module>"]
+  "LocalModelFallbackTests-debug.module": ["<LocalModelFallbackTests-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "RenameExecutor-debug.module": ["<RenameExecutor-debug.module>"]
+  "main": ["<GoogleAuth-debug.module>","<LLMIntegration-debug.module>","<LocalModelFallback-debug.module>"]
+  "phase3PackageTests-debug.test": ["<phase3PackageTests-debug.test>"]
+  "test": ["<GoogleAuth-debug.module>","<GoogleAuthTests-debug.module>","<LLMIntegration-debug.module>","<LLMIntegrationTests-debug.module>","<LocalModelFallback-debug.module>","<LocalModelFallbackTests-debug.module>","<phase3PackageTests-debug.test>"]
+default: "main"
+nodes:
+  "/Users/almorris/untitled folder/phase3/Sources/GoogleAuth/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/almorris/untitled folder/phase3/Sources/LLMIntegration/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/almorris/untitled folder/phase3/Sources/LocalModelFallback/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/almorris/untitled folder/phase3/Tests/GoogleAuthTests/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/almorris/untitled folder/phase3/Tests/LLMIntegrationTests/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/almorris/untitled folder/phase3/Tests/LocalModelFallbackTests/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/DryRunMode.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/almorris/untitled folder/phase2/Sources/DryRunMode/DryRunMode.swift"]
+    outputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/DryRunMode.build/sources"]
+    description: "Write auxiliary file /Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/DryRunMode.build/sources"
+
+  "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FileScanner.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/almorris/untitled folder/phase1/Sources/FileScanner/FileScanner.swift"]
+    outputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FileScanner.build/sources"]
+    description: "Write auxiliary file /Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FileScanner.build/sources"
+
+  "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/almorris/untitled folder/phase1/Sources/FilenameAnalyzer/FilenameAnalyzer.swift"]
+    outputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/sources"]
+    description: "Write auxiliary file /Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/sources"
+
+  "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuth.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/almorris/untitled folder/phase3/Sources/GoogleAuth/GoogleAuthManager.swift"]
+    outputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuth.build/sources"]
+    description: "Write auxiliary file /Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuth.build/sources"
+
+  "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuthTests.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/almorris/untitled folder/phase3/Tests/GoogleAuthTests/GoogleAuthTests.swift"]
+    outputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuthTests.build/sources"]
+    description: "Write auxiliary file /Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuthTests.build/sources"
+
+  "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/almorris/untitled folder/phase3/Sources/LLMIntegration/LLMIntegration.swift","/Users/almorris/untitled folder/phase3/Sources/LLMIntegration/Networking/URLSessionProtocol.swift"]
+    outputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/sources"]
+    description: "Write auxiliary file /Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/sources"
+
+  "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegrationTests.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/almorris/untitled folder/phase3/Tests/LLMIntegrationTests/LLMIntegrationTests.swift"]
+    outputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegrationTests.build/sources"]
+    description: "Write auxiliary file /Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegrationTests.build/sources"
+
+  "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/almorris/untitled folder/phase3/Sources/LocalModelFallback/LocalModelFallback.swift"]
+    outputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.build/sources"]
+    description: "Write auxiliary file /Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.build/sources"
+
+  "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallbackTests.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/almorris/untitled folder/phase3/Tests/LocalModelFallbackTests/LocalModelFallbackTests.swift"]
+    outputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallbackTests.build/sources"]
+    description: "Write auxiliary file /Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallbackTests.build/sources"
+
+  "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/RenameExecutor.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/almorris/untitled folder/phase2/Sources/RenameExecutor/RenameExecutor.swift"]
+    outputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/RenameExecutor.build/sources"]
+    description: "Write auxiliary file /Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/RenameExecutor.build/sources"
+
+  "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/phase3PackageTests.product/Objects.LinkFileList":
+    tool: write-auxiliary-file
+    inputs: ["<link-file-list>","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FileScanner.build/FileScanner.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/FilenameAnalyzer.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuth.build/GoogleAuthManager.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuthTests.build/GoogleAuthTests.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/LLMIntegration.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/URLSessionProtocol.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegrationTests.build/LLMIntegrationTests.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.build/LocalModelFallback.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallbackTests.build/LocalModelFallbackTests.swift.o"]
+    outputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/phase3PackageTests.product/Objects.LinkFileList"]
+    description: "Write auxiliary file /Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/phase3PackageTests.product/Objects.LinkFileList"
+
+  "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"]
+    outputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+
+  "<DryRunMode-debug.module>":
+    tool: phony
+    inputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/DryRunMode.build/DryRunMode.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/DryRunMode.swiftmodule"]
+    outputs: ["<DryRunMode-debug.module>"]
+
+  "<FileScanner-debug.module>":
+    tool: phony
+    inputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FileScanner.build/FileScanner.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FileScanner.swiftmodule"]
+    outputs: ["<FileScanner-debug.module>"]
+
+  "<FilenameAnalyzer-debug.module>":
+    tool: phony
+    inputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/FilenameAnalyzer.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.swiftmodule"]
+    outputs: ["<FilenameAnalyzer-debug.module>"]
+
+  "<GoogleAuth-debug.module>":
+    tool: phony
+    inputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuth.build/GoogleAuthManager.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuth.swiftmodule"]
+    outputs: ["<GoogleAuth-debug.module>"]
+
+  "<GoogleAuthTests-debug.module>":
+    tool: phony
+    inputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuthTests.build/GoogleAuthTests.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuthTests.swiftmodule"]
+    outputs: ["<GoogleAuthTests-debug.module>"]
+
+  "<LLMIntegration-debug.module>":
+    tool: phony
+    inputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/LLMIntegration.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/URLSessionProtocol.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.swiftmodule"]
+    outputs: ["<LLMIntegration-debug.module>"]
+
+  "<LLMIntegrationTests-debug.module>":
+    tool: phony
+    inputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegrationTests.build/LLMIntegrationTests.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegrationTests.swiftmodule"]
+    outputs: ["<LLMIntegrationTests-debug.module>"]
+
+  "<LocalModelFallback-debug.module>":
+    tool: phony
+    inputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.build/LocalModelFallback.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.swiftmodule"]
+    outputs: ["<LocalModelFallback-debug.module>"]
+
+  "<LocalModelFallbackTests-debug.module>":
+    tool: phony
+    inputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallbackTests.build/LocalModelFallbackTests.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallbackTests.swiftmodule"]
+    outputs: ["<LocalModelFallbackTests-debug.module>"]
+
+  "<RenameExecutor-debug.module>":
+    tool: phony
+    inputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/RenameExecutor.build/RenameExecutor.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/RenameExecutor.swiftmodule"]
+    outputs: ["<RenameExecutor-debug.module>"]
+
+  "<phase3PackageTests-debug.test>":
+    tool: phony
+    inputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/phase3PackageTests.xctest/Contents/MacOS/phase3PackageTests"]
+    outputs: ["<phase3PackageTests-debug.test>"]
+
+  "C.DryRunMode-debug.module":
+    tool: shell
+    inputs: ["/Users/almorris/untitled folder/phase2/Sources/DryRunMode/DryRunMode.swift","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.swiftmodule","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/DryRunMode.build/sources"]
+    outputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/DryRunMode.build/DryRunMode.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/DryRunMode.swiftmodule"]
+    description: "Compiling Swift Module 'DryRunMode' (1 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","DryRunMode","-emit-dependencies","-emit-module","-emit-module-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/DryRunMode.swiftmodule","-output-file-map","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/DryRunMode.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/DryRunMode.build/sources","-I","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug","-target","arm64-apple-macosx13.0","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j12","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/DryRunMode.build/DryRunMode-Swift.h","-color-diagnostics","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g"]
+
+  "C.FileScanner-debug.module":
+    tool: shell
+    inputs: ["/Users/almorris/untitled folder/phase1/Sources/FileScanner/FileScanner.swift","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FileScanner.build/sources"]
+    outputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FileScanner.build/FileScanner.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FileScanner.swiftmodule"]
+    description: "Compiling Swift Module 'FileScanner' (1 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","FileScanner","-emit-dependencies","-emit-module","-emit-module-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FileScanner.swiftmodule","-output-file-map","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FileScanner.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FileScanner.build/sources","-I","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug","-target","arm64-apple-macosx13.0","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j12","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FileScanner.build/FileScanner-Swift.h","-color-diagnostics","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g"]
+
+  "C.FilenameAnalyzer-debug.module":
+    tool: shell
+    inputs: ["/Users/almorris/untitled folder/phase1/Sources/FilenameAnalyzer/FilenameAnalyzer.swift","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FileScanner.swiftmodule","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/sources"]
+    outputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/FilenameAnalyzer.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.swiftmodule"]
+    description: "Compiling Swift Module 'FilenameAnalyzer' (1 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","FilenameAnalyzer","-emit-dependencies","-emit-module","-emit-module-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.swiftmodule","-output-file-map","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/sources","-I","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug","-target","arm64-apple-macosx13.0","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j12","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/FilenameAnalyzer-Swift.h","-color-diagnostics","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g"]
+
+  "C.GoogleAuth-debug.module":
+    tool: shell
+    inputs: ["/Users/almorris/untitled folder/phase3/Sources/GoogleAuth/GoogleAuthManager.swift","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuth.build/sources"]
+    outputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuth.build/GoogleAuthManager.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuth.swiftmodule"]
+    description: "Compiling Swift Module 'GoogleAuth' (1 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","GoogleAuth","-emit-dependencies","-emit-module","-emit-module-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuth.swiftmodule","-output-file-map","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuth.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuth.build/sources","-I","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug","-target","arm64-apple-macosx13.0","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j12","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuth.build/GoogleAuth-Swift.h","-color-diagnostics","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g"]
+
+  "C.GoogleAuthTests-debug.module":
+    tool: shell
+    inputs: ["/Users/almorris/untitled folder/phase3/Tests/GoogleAuthTests/GoogleAuthTests.swift","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuth.swiftmodule","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuthTests.build/sources"]
+    outputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuthTests.build/GoogleAuthTests.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuthTests.swiftmodule"]
+    description: "Compiling Swift Module 'GoogleAuthTests' (1 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","GoogleAuthTests","-emit-dependencies","-emit-module","-emit-module-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuthTests.swiftmodule","-output-file-map","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuthTests.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuthTests.build/sources","-I","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug","-target","arm64-apple-macosx13.0","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j12","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-color-diagnostics","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g"]
+
+  "C.LLMIntegration-debug.module":
+    tool: shell
+    inputs: ["/Users/almorris/untitled folder/phase3/Sources/LLMIntegration/LLMIntegration.swift","/Users/almorris/untitled folder/phase3/Sources/LLMIntegration/Networking/URLSessionProtocol.swift","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuth.swiftmodule","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.swiftmodule","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/sources"]
+    outputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/LLMIntegration.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/URLSessionProtocol.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.swiftmodule"]
+    description: "Compiling Swift Module 'LLMIntegration' (2 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","LLMIntegration","-emit-dependencies","-emit-module","-emit-module-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.swiftmodule","-output-file-map","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/sources","-I","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug","-target","arm64-apple-macosx13.0","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j12","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/LLMIntegration-Swift.h","-color-diagnostics","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g"]
+
+  "C.LLMIntegrationTests-debug.module":
+    tool: shell
+    inputs: ["/Users/almorris/untitled folder/phase3/Tests/LLMIntegrationTests/LLMIntegrationTests.swift","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.swiftmodule","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegrationTests.build/sources"]
+    outputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegrationTests.build/LLMIntegrationTests.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegrationTests.swiftmodule"]
+    description: "Compiling Swift Module 'LLMIntegrationTests' (1 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","LLMIntegrationTests","-emit-dependencies","-emit-module","-emit-module-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegrationTests.swiftmodule","-output-file-map","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegrationTests.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegrationTests.build/sources","-I","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug","-target","arm64-apple-macosx13.0","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j12","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-color-diagnostics","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g"]
+
+  "C.LocalModelFallback-debug.module":
+    tool: shell
+    inputs: ["/Users/almorris/untitled folder/phase3/Sources/LocalModelFallback/LocalModelFallback.swift","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.swiftmodule","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.swiftmodule","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.build/sources"]
+    outputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.build/LocalModelFallback.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.swiftmodule"]
+    description: "Compiling Swift Module 'LocalModelFallback' (1 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","LocalModelFallback","-emit-dependencies","-emit-module","-emit-module-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.swiftmodule","-output-file-map","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.build/sources","-I","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug","-target","arm64-apple-macosx13.0","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j12","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.build/LocalModelFallback-Swift.h","-color-diagnostics","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g"]
+
+  "C.LocalModelFallbackTests-debug.module":
+    tool: shell
+    inputs: ["/Users/almorris/untitled folder/phase3/Tests/LocalModelFallbackTests/LocalModelFallbackTests.swift","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.swiftmodule","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallbackTests.build/sources"]
+    outputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallbackTests.build/LocalModelFallbackTests.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallbackTests.swiftmodule"]
+    description: "Compiling Swift Module 'LocalModelFallbackTests' (1 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","LocalModelFallbackTests","-emit-dependencies","-emit-module","-emit-module-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallbackTests.swiftmodule","-output-file-map","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallbackTests.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallbackTests.build/sources","-I","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug","-target","arm64-apple-macosx13.0","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j12","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-color-diagnostics","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g"]
+
+  "C.RenameExecutor-debug.module":
+    tool: shell
+    inputs: ["/Users/almorris/untitled folder/phase2/Sources/RenameExecutor/RenameExecutor.swift","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.swiftmodule","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/RenameExecutor.build/sources"]
+    outputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/RenameExecutor.build/RenameExecutor.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/RenameExecutor.swiftmodule"]
+    description: "Compiling Swift Module 'RenameExecutor' (1 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","RenameExecutor","-emit-dependencies","-emit-module","-emit-module-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/RenameExecutor.swiftmodule","-output-file-map","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/RenameExecutor.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/RenameExecutor.build/sources","-I","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug","-target","arm64-apple-macosx13.0","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j12","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/RenameExecutor.build/RenameExecutor-Swift.h","-color-diagnostics","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g"]
+
+  "C.phase3PackageTests-debug.test":
+    tool: shell
+    inputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FileScanner.build/FileScanner.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/FilenameAnalyzer.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuth.build/GoogleAuthManager.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuthTests.build/GoogleAuthTests.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/LLMIntegration.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.build/URLSessionProtocol.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegrationTests.build/LLMIntegrationTests.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.build/LocalModelFallback.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallbackTests.build/LocalModelFallbackTests.swift.o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/phase3PackageTests.product/Objects.LinkFileList"]
+    outputs: ["/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/phase3PackageTests.xctest/Contents/MacOS/phase3PackageTests"]
+    description: "Linking ./.build/arm64-apple-macosx/debug/phase3PackageTests.xctest/Contents/MacOS/phase3PackageTests"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-L","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug","-o","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/phase3PackageTests.xctest/Contents/MacOS/phase3PackageTests","-module-name","phase3PackageTests","-Xlinker","-bundle","-Xlinker","-rpath","-Xlinker","@loader_path/../../../","@/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/phase3PackageTests.product/Objects.LinkFileList","-target","arm64-apple-macosx13.0","-framework","ImageIO","-framework","PDFKit","-Xlinker","-add_ast_path","-Xlinker","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FileScanner.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/FilenameAnalyzer.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuth.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuthTests.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegration.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LLMIntegrationTests.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallbackTests.swiftmodule","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/almorris/untitled folder/phase3/Sources/GoogleAuth/","/Users/almorris/untitled folder/phase3/Sources/LLMIntegration/","/Users/almorris/untitled folder/phase3/Sources/LocalModelFallback/","/Users/almorris/untitled folder/phase3/Tests/GoogleAuthTests/","/Users/almorris/untitled folder/phase3/Tests/LLMIntegrationTests/","/Users/almorris/untitled folder/phase3/Tests/LocalModelFallbackTests/","/Users/almorris/untitled folder/phase3/Package.swift","/Users/almorris/untitled folder/phase3/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

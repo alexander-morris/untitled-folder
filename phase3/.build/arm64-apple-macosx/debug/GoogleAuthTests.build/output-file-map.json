@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuthTests.build/master.swiftdeps"
+  },
+  "/Users/almorris/untitled folder/phase3/Tests/GoogleAuthTests/GoogleAuthTests.swift": {
+    "dependencies": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuthTests.build/GoogleAuthTests.d",
+    "object": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuthTests.build/GoogleAuthTests.swift.o",
+    "swiftmodule": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuthTests.build/GoogleAuthTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/GoogleAuthTests.build/GoogleAuthTests.swiftdeps"
+  }
+}

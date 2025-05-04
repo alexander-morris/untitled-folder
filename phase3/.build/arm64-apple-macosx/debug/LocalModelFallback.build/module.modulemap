@@ -1,0 +1,4 @@
+module LocalModelFallback {
+    header "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.build/LocalModelFallback-Swift.h"
+    requires objc
+}

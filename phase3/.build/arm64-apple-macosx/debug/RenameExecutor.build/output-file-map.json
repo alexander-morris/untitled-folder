@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/RenameExecutor.build/master.swiftdeps"
+  },
+  "/Users/almorris/untitled folder/phase2/Sources/RenameExecutor/RenameExecutor.swift": {
+    "dependencies": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/RenameExecutor.build/RenameExecutor.d",
+    "object": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/RenameExecutor.build/RenameExecutor.swift.o",
+    "swiftmodule": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/RenameExecutor.build/RenameExecutor~partial.swiftmodule",
+    "swift-dependencies": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/RenameExecutor.build/RenameExecutor.swiftdeps"
+  }
+}

@@ -1,0 +1,4 @@
+module FilenameAnalyzer {
+    header "/Users/almorris/untitled folder/phase2/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/FilenameAnalyzer-Swift.h"
+    requires objc
+}

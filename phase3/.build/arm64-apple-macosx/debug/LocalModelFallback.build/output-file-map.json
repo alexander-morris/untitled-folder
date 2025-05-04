@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.build/master.swiftdeps"
+  },
+  "/Users/almorris/untitled folder/phase3/Sources/LocalModelFallback/LocalModelFallback.swift": {
+    "dependencies": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.build/LocalModelFallback.d",
+    "object": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.build/LocalModelFallback.swift.o",
+    "swiftmodule": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.build/LocalModelFallback~partial.swiftmodule",
+    "swift-dependencies": "/Users/almorris/untitled folder/phase3/.build/arm64-apple-macosx/debug/LocalModelFallback.build/LocalModelFallback.swiftdeps"
+  }
+}
