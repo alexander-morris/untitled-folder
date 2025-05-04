@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScannerTests.build/master.swiftdeps"
+  },
+  "/Users/almorris/untitled folder/phase1/Tests/FileScannerTests/FileScannerTests.swift": {
+    "dependencies": "/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScannerTests.build/FileScannerTests.d",
+    "object": "/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScannerTests.build/FileScannerTests.swift.o",
+    "swiftmodule": "/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScannerTests.build/FileScannerTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScannerTests.build/FileScannerTests.swiftdeps"
+  }
+}

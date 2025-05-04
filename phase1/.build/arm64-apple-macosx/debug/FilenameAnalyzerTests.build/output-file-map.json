@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzerTests.build/master.swiftdeps"
+  },
+  "/Users/almorris/untitled folder/phase1/Tests/FilenameAnalyzerTests/FilenameAnalyzerTests.swift": {
+    "dependencies": "/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzerTests.build/FilenameAnalyzerTests.d",
+    "object": "/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzerTests.build/FilenameAnalyzerTests.swift.o",
+    "swiftmodule": "/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzerTests.build/FilenameAnalyzerTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzerTests.build/FilenameAnalyzerTests.swiftdeps"
+  }
+}

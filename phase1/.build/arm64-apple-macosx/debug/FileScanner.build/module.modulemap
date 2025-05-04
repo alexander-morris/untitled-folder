@@ -1,0 +1,4 @@
+module FileScanner {
+    header "/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScanner.build/FileScanner-Swift.h"
+    requires objc
+}

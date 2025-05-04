@@ -1,0 +1,154 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "FileScanner-debug.module": ["<FileScanner-debug.module>"]
+  "FileScannerTests-debug.module": ["<FileScannerTests-debug.module>"]
+  "FilenameAnalyzer-debug.module": ["<FilenameAnalyzer-debug.module>"]
+  "FilenameAnalyzerTests-debug.module": ["<FilenameAnalyzerTests-debug.module>"]
+  "IntegrationTests-debug.module": ["<IntegrationTests-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "UntitledFolderCorePackageTests-debug.test": ["<UntitledFolderCorePackageTests-debug.test>"]
+  "main": ["<FileScanner-debug.module>","<FilenameAnalyzer-debug.module>"]
+  "test": ["<FileScanner-debug.module>","<FileScannerTests-debug.module>","<FilenameAnalyzer-debug.module>","<FilenameAnalyzerTests-debug.module>","<IntegrationTests-debug.module>","<UntitledFolderCorePackageTests-debug.test>"]
+default: "main"
+nodes:
+  "/Users/almorris/untitled folder/phase1/Sources/FileScanner/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/almorris/untitled folder/phase1/Sources/FilenameAnalyzer/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/almorris/untitled folder/phase1/Tests/FileScannerTests/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/almorris/untitled folder/phase1/Tests/FilenameAnalyzerTests/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/almorris/untitled folder/phase1/Tests/IntegrationTests/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScanner.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/almorris/untitled folder/phase1/Sources/FileScanner/FileScanner.swift"]
+    outputs: ["/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScanner.build/sources"]
+    description: "Write auxiliary file /Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScanner.build/sources"
+
+  "/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScannerTests.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/almorris/untitled folder/phase1/Tests/FileScannerTests/FileScannerTests.swift"]
+    outputs: ["/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScannerTests.build/sources"]
+    description: "Write auxiliary file /Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScannerTests.build/sources"
+
+  "/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/almorris/untitled folder/phase1/Sources/FilenameAnalyzer/FilenameAnalyzer.swift"]
+    outputs: ["/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/sources"]
+    description: "Write auxiliary file /Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/sources"
+
+  "/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzerTests.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/almorris/untitled folder/phase1/Tests/FilenameAnalyzerTests/FilenameAnalyzerTests.swift"]
+    outputs: ["/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzerTests.build/sources"]
+    description: "Write auxiliary file /Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzerTests.build/sources"
+
+  "/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/IntegrationTests.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/almorris/untitled folder/phase1/Tests/IntegrationTests/IntegrationTests.swift"]
+    outputs: ["/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/IntegrationTests.build/sources"]
+    description: "Write auxiliary file /Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/IntegrationTests.build/sources"
+
+  "/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/UntitledFolderCorePackageTests.product/Objects.LinkFileList":
+    tool: write-auxiliary-file
+    inputs: ["<link-file-list>","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScanner.build/FileScanner.swift.o","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScannerTests.build/FileScannerTests.swift.o","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/FilenameAnalyzer.swift.o","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzerTests.build/FilenameAnalyzerTests.swift.o","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/IntegrationTests.build/IntegrationTests.swift.o"]
+    outputs: ["/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/UntitledFolderCorePackageTests.product/Objects.LinkFileList"]
+    description: "Write auxiliary file /Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/UntitledFolderCorePackageTests.product/Objects.LinkFileList"
+
+  "/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"]
+    outputs: ["/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+
+  "<FileScanner-debug.module>":
+    tool: phony
+    inputs: ["/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScanner.build/FileScanner.swift.o","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScanner.swiftmodule"]
+    outputs: ["<FileScanner-debug.module>"]
+
+  "<FileScannerTests-debug.module>":
+    tool: phony
+    inputs: ["/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScannerTests.build/FileScannerTests.swift.o","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScannerTests.swiftmodule"]
+    outputs: ["<FileScannerTests-debug.module>"]
+
+  "<FilenameAnalyzer-debug.module>":
+    tool: phony
+    inputs: ["/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/FilenameAnalyzer.swift.o","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzer.swiftmodule"]
+    outputs: ["<FilenameAnalyzer-debug.module>"]
+
+  "<FilenameAnalyzerTests-debug.module>":
+    tool: phony
+    inputs: ["/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzerTests.build/FilenameAnalyzerTests.swift.o","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzerTests.swiftmodule"]
+    outputs: ["<FilenameAnalyzerTests-debug.module>"]
+
+  "<IntegrationTests-debug.module>":
+    tool: phony
+    inputs: ["/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/IntegrationTests.build/IntegrationTests.swift.o","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/IntegrationTests.swiftmodule"]
+    outputs: ["<IntegrationTests-debug.module>"]
+
+  "<UntitledFolderCorePackageTests-debug.test>":
+    tool: phony
+    inputs: ["/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/UntitledFolderCorePackageTests.xctest/Contents/MacOS/UntitledFolderCorePackageTests"]
+    outputs: ["<UntitledFolderCorePackageTests-debug.test>"]
+
+  "C.FileScanner-debug.module":
+    tool: shell
+    inputs: ["/Users/almorris/untitled folder/phase1/Sources/FileScanner/FileScanner.swift","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScanner.build/sources"]
+    outputs: ["/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScanner.build/FileScanner.swift.o","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScanner.swiftmodule"]
+    description: "Compiling Swift Module 'FileScanner' (1 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","FileScanner","-emit-dependencies","-emit-module","-emit-module-path","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScanner.swiftmodule","-output-file-map","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScanner.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScanner.build/sources","-I","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug","-target","arm64-apple-macosx13.0","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j12","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScanner.build/FileScanner-Swift.h","-color-diagnostics","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g"]
+
+  "C.FileScannerTests-debug.module":
+    tool: shell
+    inputs: ["/Users/almorris/untitled folder/phase1/Tests/FileScannerTests/FileScannerTests.swift","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScanner.swiftmodule","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScannerTests.build/sources"]
+    outputs: ["/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScannerTests.build/FileScannerTests.swift.o","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScannerTests.swiftmodule"]
+    description: "Compiling Swift Module 'FileScannerTests' (1 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","FileScannerTests","-emit-dependencies","-emit-module","-emit-module-path","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScannerTests.swiftmodule","-output-file-map","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScannerTests.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScannerTests.build/sources","-I","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug","-target","arm64-apple-macosx13.0","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j12","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-color-diagnostics","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g"]
+
+  "C.FilenameAnalyzer-debug.module":
+    tool: shell
+    inputs: ["/Users/almorris/untitled folder/phase1/Sources/FilenameAnalyzer/FilenameAnalyzer.swift","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScanner.swiftmodule","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/sources"]
+    outputs: ["/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/FilenameAnalyzer.swift.o","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzer.swiftmodule"]
+    description: "Compiling Swift Module 'FilenameAnalyzer' (1 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","FilenameAnalyzer","-emit-dependencies","-emit-module","-emit-module-path","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzer.swiftmodule","-output-file-map","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/sources","-I","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug","-target","arm64-apple-macosx13.0","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j12","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/FilenameAnalyzer-Swift.h","-color-diagnostics","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g"]
+
+  "C.FilenameAnalyzerTests-debug.module":
+    tool: shell
+    inputs: ["/Users/almorris/untitled folder/phase1/Tests/FilenameAnalyzerTests/FilenameAnalyzerTests.swift","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzer.swiftmodule","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzerTests.build/sources"]
+    outputs: ["/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzerTests.build/FilenameAnalyzerTests.swift.o","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzerTests.swiftmodule"]
+    description: "Compiling Swift Module 'FilenameAnalyzerTests' (1 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","FilenameAnalyzerTests","-emit-dependencies","-emit-module","-emit-module-path","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzerTests.swiftmodule","-output-file-map","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzerTests.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzerTests.build/sources","-I","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug","-target","arm64-apple-macosx13.0","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j12","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-color-diagnostics","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g"]
+
+  "C.IntegrationTests-debug.module":
+    tool: shell
+    inputs: ["/Users/almorris/untitled folder/phase1/Tests/IntegrationTests/IntegrationTests.swift","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScanner.swiftmodule","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzer.swiftmodule","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/IntegrationTests.build/sources"]
+    outputs: ["/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/IntegrationTests.build/IntegrationTests.swift.o","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/IntegrationTests.swiftmodule"]
+    description: "Compiling Swift Module 'IntegrationTests' (1 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","IntegrationTests","-emit-dependencies","-emit-module","-emit-module-path","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/IntegrationTests.swiftmodule","-output-file-map","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/IntegrationTests.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/IntegrationTests.build/sources","-I","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug","-target","arm64-apple-macosx13.0","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j12","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-color-diagnostics","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g"]
+
+  "C.UntitledFolderCorePackageTests-debug.test":
+    tool: shell
+    inputs: ["/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScanner.build/FileScanner.swift.o","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScannerTests.build/FileScannerTests.swift.o","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzer.build/FilenameAnalyzer.swift.o","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzerTests.build/FilenameAnalyzerTests.swift.o","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/IntegrationTests.build/IntegrationTests.swift.o","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/UntitledFolderCorePackageTests.product/Objects.LinkFileList"]
+    outputs: ["/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/UntitledFolderCorePackageTests.xctest/Contents/MacOS/UntitledFolderCorePackageTests"]
+    description: "Linking ./.build/arm64-apple-macosx/debug/UntitledFolderCorePackageTests.xctest/Contents/MacOS/UntitledFolderCorePackageTests"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-L","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug","-o","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/UntitledFolderCorePackageTests.xctest/Contents/MacOS/UntitledFolderCorePackageTests","-module-name","UntitledFolderCorePackageTests","-Xlinker","-bundle","-Xlinker","-rpath","-Xlinker","@loader_path/../../../","@/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/UntitledFolderCorePackageTests.product/Objects.LinkFileList","-target","arm64-apple-macosx13.0","-framework","ImageIO","-framework","PDFKit","-Xlinker","-add_ast_path","-Xlinker","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScanner.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FileScannerTests.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzer.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/FilenameAnalyzerTests.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/almorris/untitled folder/phase1/.build/arm64-apple-macosx/debug/IntegrationTests.swiftmodule","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/almorris/untitled folder/phase1/Sources/FileScanner/","/Users/almorris/untitled folder/phase1/Sources/FilenameAnalyzer/","/Users/almorris/untitled folder/phase1/Tests/FileScannerTests/","/Users/almorris/untitled folder/phase1/Tests/FilenameAnalyzerTests/","/Users/almorris/untitled folder/phase1/Tests/IntegrationTests/","/Users/almorris/untitled folder/phase1/Package.swift","/Users/almorris/untitled folder/phase1/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+
